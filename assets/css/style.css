@@ -697,12 +697,21 @@ section .container {
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
 }
+
 .portfolio .portfolio-wrap {
+  height: 180px;
+  width: 100%;
   transition: 0.3s;
   position: relative;
   overflow: hidden;
   z-index: 1;
   background: rgba(0, 0, 0, 0.6);
+}
+.img-port{
+  object-fit: cover;
+  object-position: 50% 50%;
+  height: 100%;
+  width: 100%;
 }
 .portfolio .portfolio-wrap::before {
   content: "";
